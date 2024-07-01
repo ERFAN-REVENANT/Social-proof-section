@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+body{
+    background-color: #ffffff;
+    width: 100%;
+    overflow: hidden;
+    font-family: "League Spartan";
+}
+.shape1{
+    position: absolute;
+    top: -10%;
+    left: -10%;
+}
+.shape1 img{
+    width: 800px;
+    height: auto;
+}
+.shape2{
+    position: absolute;
+    right: 0%;
+    bottom: -10%;
+}
+.shape2 img{
+    width: auto;
+    height: 700px;
+}
+.landing{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;   
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+}
+.about{
+    width: 700px;
+}
+.about p{
+    font-weight: 700;
+    font-size: 46px;
+    width: 400px;
+    color: #511f50;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about h2{
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(300, 43%, 22%);
+    width: 450px;
+    line-height: 25px;
+}
+.rate{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f7f2f8;
+    width: 350px;
+    margin: 10px 0;
+    border-radius: 7px;
+    padding: 0px 30px;
+    font-weight: 700;
+    color: #6a2569;
+}
+.icon img{
+    margin: 0px 2px;
+    height: auto;
+    width: 14px;
+}
+.icon{
+    margin-right: 30px;
+}
+
+.stars2{
+    margin-left: 50px;
+}
+.stars3{
+    margin-left: 100px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #511f50;
+    width: 290px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 40px;
+}
+.author{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.author-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.author-info p{
+    margin: 0;
+    color: #ffffff;
+    font-weight: 700;
+}
+.author-info p1{
+    color: #bd6ba1;
+}
+.desc{
+    color: #ffffff;
+    width: 275px;
+    line-height: 20px;
+}
+.author img{
+    border-radius: 50%;
+    height: auto;
+    width: 45px;
+}
+.card2{
+    margin-top: 30px;
+}
+.card3{
+    margin-top: 60px;
+}
